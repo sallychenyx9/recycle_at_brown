@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* overflow: hidden; */
+  /* font-family: 'Open Sans', sans-serif; */
+  background-color:white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

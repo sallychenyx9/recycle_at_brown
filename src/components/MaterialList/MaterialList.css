@@ -1,0 +1,160 @@
+.page-wrapper {
+  padding-top: 56px;
+}
+
+.page-title{
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  padding-top: 8vw;
+}
+
+.backgroundimg {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.material-list-wrapper {
+  padding-top: 40px;
+  margin-top: 20vw;
+}
+
+.material-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 3.5vw;
+  padding: 0px;
+  padding-bottom: 0px;
+  border-bottom: solid 1px rgb(230, 228, 228);
+  color: rgb(61, 0, 0);
+  padding-top: 30px;
+
+}
+
+.material-item-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-bottom: 2px;
+  color: darkred;
+}
+
+.content-wrapper {
+  padding: 12px;
+}
+
+.item {
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  padding: 0px;
+  border-top: solid;
+  border-color: black;
+ 
+}
+
+.toggle-button {
+  height: 40px;
+  width: 50px;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+
+.materialpg-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+.item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  color: rgb(124, 74, 68);
+  background-color: rgb(238, 238, 238);
+  border: lightgray;
+  font-size: 2.3vw;
+
+}
+
+
+
+.item-content {
+  font-size: 16px;
+  padding:20px;
+  color: black;
+  background-color: white;
+  line-height: 25px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .material-list {
+    font-size: 5vw;
+  }
+  .item-header {
+    font-size: 4vw;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .page-wrapper {
+    padding-top: 56px;
+  }
+
+  .page-title{
+    font-size: 6vw;
+    text-align: center;
+    color: white;
+    padding-top: 8vw;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    height: 25vw;
+    background-color: rgba(255, 255, 255, 0.137);
+  }
+  
+  .backgroundimg {
+    width: 100%;
+    height: auto;
+    max-height: 25vw;
+    position: fixed;
+    z-index: 1;
+  }
+
+
+  .material-title {
+    font-size: 20px;
+    margin-top: -15%;
+    margin-bottom: 3px;
+
+  }
+
+  .material-list {
+    font-size: 6vw;
+    padding-top: 56px;
+  }
+
+  .material-list-wrapper {
+    padding-top: 20px;
+  }
+
+}

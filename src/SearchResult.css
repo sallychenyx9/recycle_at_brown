@@ -1,0 +1,89 @@
+.main{
+    height:100%;
+    widows: 100%;
+    margin-top: 105px;
+}
+
+.sadIcon{
+    align-items: center;
+}
+
+.no-result{
+    margin-top: 250px;
+    height:100%;
+    widows: 100%;
+    text-align: center;   
+}
+
+.no-result-text{
+    color: #a7a8a8;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.result-name{
+    font-size: 22px;
+    margin-left: 10px;
+    line-height: 100%;
+
+}
+.result-name-wrapper{
+    /* text-align: center; */
+    border-bottom: solid lightgrey 4px;
+    padding: 10px;
+}
+
+.result{
+    margin-top: 110px;
+    height:100%;
+    font-weight: bold;
+    widows: 100%;
+}
+
+.result-description{
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: lighter;
+    color: #2d2e2e;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.recyclable{
+    display: flex;
+    flex-direction: row;
+    margin-top:5px;
+    height: 30px;
+    border-bottom: solid lightgrey 2px;
+
+}
+
+.recyclable-text{
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+.hint{
+    color: #949494;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: lighter;
+    border-bottom: solid lightgrey 1px;
+}
+
+.suggest-item{
+    margin-left: 15px;
+    color: #2d2e2e;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-top:5px;
+}
+
+.suggest{
+    margin-top: 100px;
+}

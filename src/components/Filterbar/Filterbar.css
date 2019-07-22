@@ -1,0 +1,54 @@
+.filter-bar{
+    position: fixed;
+    top: 116px;
+    width: 100%;
+    left: 0;
+    height: 82px;
+    background:white;
+    border-style: none;
+    border-bottom: solid lightgrey 1px;
+    z-index: 180;
+    padding: 10px 0px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.11);
+}
+
+.filter-tip{
+    opacity: 0.4;
+    padding-left: 15px;
+}
+
+.filter-buttons{
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 400px;
+}
+
+.buttons-wrapper{
+    overflow-x: auto;
+    padding-bottom: 17px;
+    box-sizing: content-box; 
+}
+
+.filter-button{
+    margin-right: auto;
+    margin-left: auto;
+    border: 1.5px solid #69BE94;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #69BE94;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.filter-button:focus {
+    outline:none;
+}
+
+.recycleicon{
+    margin-top: 4px;
+}

@@ -1,0 +1,81 @@
+[
+    {
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "visibility": "on"
+        }
+      ]
+    },
+    {
+      "elementType": "labels.icon",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "poi.attraction",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "poi.business",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "poi.park",
+      "elementType": "labels.text",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "poi.school",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#ffeb3b"
+        },
+        {
+          "visibility": "on"
+        }
+      ]
+    },
+    {
+      "featureType": "poi.school",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+          "color": "#fff3bc"
+        }
+      ]
+    },
+    {
+      "featureType": "poi.sports_complex",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#fff3bc"
+        }
+      ]
+    },
+    {
+      "featureType": "transit",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    }
+  ]

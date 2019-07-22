@@ -1,0 +1,15 @@
+
+.bottom {
+  font-family: 'Times New Roman', Times, serif;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+    background-color: rgb(78, 54, 41);
+    z-index: 100;
+  }
